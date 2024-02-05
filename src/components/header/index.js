@@ -8,9 +8,9 @@ import './header.css';
 function Header() {
     return (
       <section className="App header">
-        <div className='colorfield'>
+        {/* <div className='colorfield'>
             colorfield
-        </div>
+        </div> */}
 
         <div className='headerinfo'>
             <div className='logo'>

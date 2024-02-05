@@ -1,0 +1,72 @@
+section.hp {
+    position: relative;
+    width: 100%;
+    height: calc(85vh - 100px);
+}
+
+section.hp .me {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.hp .me .name {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--contrast1);
+}
+
+section.hp .me h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--color3);
+}
+
+section.hp .me .text {
+    margin-top: 1.5rem;
+    max-width: 500px;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: var(--color3);
+}
+
+
+section.hp .barras1 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+section.hp .barras1 .barra {
+    flex: 1;
+    height: 10px; /* Ajuste a altura conforme necessário */
+    background-color: var(--contrast1); /* ou a cor desejada */
+    margin: 0 2px; /* Espaçamento entre as barras */
+}
+
+section.hp .barras-container {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20px; /* Largura das barras */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+section.hp .barras1 {
+    width: 100%;
+    height: 100%;
+    background-color: var(--contrast1);
+    opacity: 0.2;
+    margin-bottom: 10px; /* Espaçamento entre as barras */
+}
